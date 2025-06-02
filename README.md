@@ -54,7 +54,7 @@ The system is scheduled to run every 10 milliseconds to meet real-time performan
 
 ## Getting Started
 
-1. Open the model files (`RainSnsrWiperMot_Method_1.slx and RainSnsrWiperMot_Method_2.slx`) in MATLAB/Simulink.
+1. Open the model files (`RainSnsrWiperMot_Method_1.slx` and `RainSnsrWiperMot_Method_2.slx`) in MATLAB/Simulink.
 2. Simulate the models and observe duty cycle behavior based on input signals.
 3. Modify input parameters to test different operating modes and fault conditions.
 
