@@ -7,8 +7,8 @@ This project implements a model-based wiper system control software component in
 The wiper system is designed to regulate the motor's duty cycle and determine the activation status of the wiper based on:
 
 - **Wiper Mode**: Off, Automatic, Low Speed, High Speed
-- **Rain Sensor Error**: Fault detection
-- **Wiper Speed Request**: (Applicable in Automatic mode, levels 0–7)
+- **Wiper Speed Request (rain sensor feedback)**: Applicable in Automatic mode, levels 0–7
+- **Rain Sensor Error (rain sensor feedback)**: Fault detection
 
 The system is scheduled to run every 10 milliseconds to meet real-time performance requirements.
 
@@ -54,8 +54,8 @@ The system is scheduled to run every 10 milliseconds to meet real-time performan
 
 ## Getting Started
 
-1. Open the model file (`WiperSystemModel.slx`) in MATLAB/Simulink.
-2. Simulate the model and observe duty cycle behavior based on input signals.
+1. Open the model files (`RainSnsrWiperMot_Method_1.slx and RainSnsrWiperMot_Method_2.slx`) in MATLAB/Simulink.
+2. Simulate the models and observe duty cycle behavior based on input signals.
 3. Modify input parameters to test different operating modes and fault conditions.
 
 ## Tools Used
