@@ -1,4 +1,4 @@
-# Automotive-Project-Wiper-System-Controller
+# Automotive-Wiper-Control-System
 
 This project implements a model-based wiper system control software component in Simulink, simulating real-time control of an automotive wiper motor based on driver inputs and rain sensor feedback.
 
